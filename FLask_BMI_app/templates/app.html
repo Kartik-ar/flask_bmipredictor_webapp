@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Flask app</title>
+        <link rel="stylesheet" href="{{'/sheet'}}">
+      </head>
+    <body>
+        <form action="/bmical" method="GET" target="_top">
+        <label for="height_feet" class="">Height</label>
+        <td style="width:90%;">
+        <input type="number" name="height_feet" id="height_feet" >
+        ft
+        <input type="number" name="height_inches" id="height_inches">
+        in
+        </td><br><br>
+        <label for="Weight"> Weight: </label>
+        <input type="text" id="Weight" name="Weight"><br><br>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
